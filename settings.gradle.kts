@@ -1,5 +1,7 @@
 rootProject.name = "server"
 include(
     "common",
-    "ground"
+    "ground",
+    "notice",
+    "campus"
 )

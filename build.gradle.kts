@@ -44,3 +44,10 @@ project(":ground") {
         jar { enabled = false }
     }
 }
+
+project(":notice") {
+    tasks {
+        bootJar { enabled = true }
+        jar { enabled = false }
+    }
+}
